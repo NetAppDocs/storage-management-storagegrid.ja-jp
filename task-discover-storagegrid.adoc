@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: task-discover-storagegrid.html 
+keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
+summary: オンプレミス環境内のStorageGRIDシステムを検出し、Grid Manager を使用してNetAppコンソールから直接管理します。 
+---
+= NetAppコンソールにStorageGRIDシステムを追加する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Grid Manager を使用して、 NetAppコンソールから StorageGrid システムを直接管理します。
+
+.必要なNetAppコンソール ロール:
+ストレージ管理者またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetAppコンソールのアクセス ロールについて学習します。"^]
+
+.開始する前に
+次のものが必要です:
+
+* バージョン 3.9.43 以降を使用するNetAppコンソール エージェント。コンソール エージェントをインストールするには、組織管理者のロールが必要です。組織にコンソール エージェントがあるかどうかわからない場合、またはコンソール エージェントを作成する必要がある場合は、 NetAppコンソール管理者に問い合わせてください。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["組織の管理者に問い合わせてください。"^]
+* 管理ノードのドメイン名または IP アドレス。
+* 管理ノードの管理者資格情報。
+* StorageGRIDシステムにインストールされた管理インターフェイス証明書。
++
+https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRIDに管理インターフェース証明書をインストールする方法の詳細"^]
+
+
+
+.手順
+. ナビゲーション メニューから、*ストレージ > 管理* を選択します。
+. *システム*を選択します。
+. *システムの追加*を選択し、*オンプレミス*を選択します。
+. * StorageGRID*の横にある*Discover*を選択します。
+. コンソールの [StorageGRID Cluster Details] ページで、管理ノードのドメイン名または IP アドレス、ノードの資格情報を入力し、[*追加*] を選択します。
+. コンソールは、 StorageGRID管理インターフェイス証明書を自動的に取得します。  [証明書の承認] ページで、証明書の詳細を確認します。
+. 別の証明書を使用するには、まずStorageGRIDシステムで証明書を設定します。
++
+.. オンプレミスのStorageGRIDシステムで、次の手順に従います。 https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRIDに管理インターフェース証明書をインストールする"^] 。
+.. StorageGRIDシステムで証明書を設定した後、コンソールの [証明書の承認] ページで [キャンセル] を選択します。
+.. _StorageGRID Cluster Details_ ページで、[*追加*] を選択します。
+
+
+. 必要に応じて、「*証明書のコピー*」を選択して証明書の詳細をコピーします。必要に応じて、証明書の詳細を使用して追加の検証を実行できます。
+. 次のいずれかを実行します。
++
+.. 証明書を使用するには、[*証明書の承認*] を選択します。
++
+NetAppコンソールに成功メッセージが表示され、承認された証明書を検証することで、 StorageGRIDサーバーとコンソール エージェント間のすべての通信が保護されます。
+
+.. 証明書を検証せずに検出プロセスを終了するには、「キャンセル」を選択します。
++
+たとえば、 StorageGRID管理証明書を更新する必要があることを通知するエラー メッセージが表示された場合は、[キャンセル] を選択できます。
+
++
+証明書を更新するには、 StorageGRIDシステムにアクセスし、証明書を更新して、 NetAppコンソールから検出プロセスを再開します。
+
+
+
+

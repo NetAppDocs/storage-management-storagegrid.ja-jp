@@ -1,0 +1,34 @@
+---
+indexpage:
+  title: NetAppコンソールを使用したStorageGRID管理
+  summary: Grid Manager を使用してNetAppコンソールからStorageGRIDシステムを管理し、バックアップ、データ階層化などにNetAppデータ
+    サービスを使用します。
+  keywords: storagegrid systems, bluexp, data, hybrid, multicloud, netapp console,
+    console
+  lead: Grid Manager を使用してNetAppコンソールからStorageGRIDシステムを管理し、バックアップ、データ階層化などにNetAppデータ
+    サービスを使用します。
+  tiles:
+  - title: 始めましょう
+    links:
+    - title: StorageGRIDシステムを発見
+      url: task-discover-storagegrid.html
+  - title: StorageGRIDシステムの管理
+    links:
+    - title: StorageGRIDシステムを表示
+      url: task-view-storagegrid.html
+    - title: StorageGRIDでNetAppデータサービスを使用する
+      url: task-enable-data-services.html
+    - title: StorageGRIDを削除する
+      url: task-remove-storagegrid.html
+  - title: 詳細情報
+    links:
+    - title: NetAppコンソール外での管理に関するStorageGRIDドキュメント
+      url: https://docs.netapp.com/us-en/storagegrid-118/
+  - title: ブログとコミュニティ
+    links:
+    - title: NetAppコンソール
+      url: https://www.netapp.com/console
+    - title: NetAppデータサービス
+      url: https://www.netapp.com/data-services/
+    - title: NetAppコミュニティ
+      url: https://community.netapp.com/

@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task-view-storagegrid.html 
+keywords: storagegrid, cluster, view, alerts, nodes, tenants, capacity, used capacity, free capacity, system ID, domain, IP, object data used, object metadata used, cpu usage, quota utilization, quota 
+summary: StorageGRIDシステムを検出したら、容量の配分と関連するアラート、ノード、テナントに関する詳細を表示できます。 
+---
+= StorageGRIDシステムを表示
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+StorageGRIDシステムを検出したら、容量の配分と関連するアラート、ノード、テナントに関する詳細を表示できます。
+
+.必要なNetAppコンソール ロール:
+ストレージ管理者またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetAppコンソールのアクセス ロールについて学習します。"^]
+
+.手順
+. ナビゲーション メニューから、*ストレージ > 管理* を選択します。
+. *システム* ページで、表示するStorageGRIDシステムを選択します。
+. 利用可能なメニュー オプションから選択して、 StorageGRIDシステムの詳細を表示します。
++
+** *概要*: システムの容量分布 (使用済み容量と空き容量)、システムアラート、ノード、テナントの数などの詳細ビュー。
+** *アラート*: アクティブなアラート、解決済みのアラート、サイレント化されたアラートを含むシステムアラートの概要。
+** *ノード*: 管理ノード、API ゲートウェイ ノード、およびストレージ ノードに関する詳細。これには、使用されたオブジェクト データ、使用されたオブジェクト メタデータ、および CPU 使用率のパーセンテージが含まれます。
+** *テナント*: 使用されている論理スペース、クォータ使用率、クォータ、オブジェクト数など、テナントに関する重要な詳細。
+
+
+

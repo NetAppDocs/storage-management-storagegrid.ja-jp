@@ -1,0 +1,9 @@
+= 必要なBlueXPアクセスロール
+:allow-uri-read: 
+
+
+
+
+=== 必要なBlueXPアクセスロール
+
+BlueXPでStorageGRID を表示、検出、または管理するには、次のアクセス ロールのいずれかが必要です: *組織管理者*、*フォルダーまたはプロジェクト管理者*、*ストレージ管理者*、または *ストレージ ヘルス スペシャリスト*。link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["BlueXPアクセス ロールについて学習します。"^]

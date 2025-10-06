@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, storagegrid' 
+summary: NetAppコンソールでStorageGRIDシステムを管理する新機能について説明します。 
+---
+= StorageGRID管理の新機能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetAppコンソールでStorageGRIDシステムを管理する新機能について説明します。
+
+
+
+== 2025年10月6日
+
+
+
+=== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+== 2025年5月12日
+
+
+
+=== 必要なBlueXPアクセスロール
+
+BlueXPでStorageGRID を表示、検出、または管理するには、次のアクセス ロールのいずれかが必要です: *組織管理者*、*フォルダーまたはプロジェクト管理者*、*ストレージ管理者*、または *ストレージ ヘルス スペシャリスト*。link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["BlueXPアクセス ロールについて学習します。"^]
+
+
+
+== 2024年8月7日
+
+
+
+=== 新しい詳細ビュー
+
+StorageGRID 11.8 以降では、使い慣れた Grid Manager インターフェイスを使用して、 BlueXPからStorageGRIDシステムを管理できます。
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html["詳細ビューを使用してStorageGRIDを管理する方法を学びます"] 。
+
+
+
+=== StorageGRID管理インターフェース証明書の確認と承認が可能
+
+BlueXPからStorageGRIDシステムを検出するときに、 StorageGRID管理インターフェイス証明書を確認して承認できるようになりました。検出されたグリッド上の最新のStorageGRID管理インターフェイス証明書を確認して承認することもできます。
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["システム検出中にサーバー証明書を確認して承認する方法を学習します。"]
+
+
+
+== 2022年9月18日
+
+
+
+=== StorageGRIDのサポート
+
+BlueXPから直接StorageGRIDシステムを検出できるようになりました。  StorageGRID を検出すると、ハイブリッド マルチクラウド全体のデータを完全に把握できます。

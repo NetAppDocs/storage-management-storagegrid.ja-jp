@@ -1,0 +1,19 @@
+= 新しい詳細ビュー
+:allow-uri-read: 
+
+
+
+
+=== 新しい詳細ビュー
+
+StorageGRID 11.8 以降では、使い慣れた Grid Manager インターフェイスを使用して、 BlueXPからStorageGRIDシステムを管理できます。
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html["詳細ビューを使用してStorageGRIDを管理する方法を学びます"] 。
+
+
+
+=== StorageGRID管理インターフェース証明書の確認と承認が可能
+
+BlueXPからStorageGRIDシステムを検出するときに、 StorageGRID管理インターフェイス証明書を確認して承認できるようになりました。検出されたグリッド上の最新のStorageGRID管理インターフェイス証明書を確認して承認することもできます。
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["システム検出中にサーバー証明書を確認して承認する方法を学習します。"]

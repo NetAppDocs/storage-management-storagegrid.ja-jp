@@ -1,0 +1,124 @@
+---
+sidebar: sidebar 
+permalink: task-administer-storagegrid.html 
+keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
+summary: 詳細ビューを使用して、 NetAppコンソールからStorageGRIDシステムを管理します。このビューを使用すると、 NetAppコンソール内から Grid Manager を使用できます。 
+---
+= NetAppコンソールのGrid Managerを使用してStorageGRIDを管理する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+詳細ビューを使用して、コンソールからStorageGRIDシステムを管理します。このビューを使用すると、コンソールからグリッド マネージャーを使用できます。
+
+.必要なNetAppコンソール ロール:
+ストレージ管理者、またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["アクセス ロールについて学習します。"^]
+
+
+
+== サポートされている構成
+
+Grid Manager は、 StorageGRID 11.8 以降のコンソールで使用できます。
+
+
+
+== 制限事項
+
+次のグリッド マネージャ操作はコンソールからは使用できません。これらの操作を実行する必要がある場合は、Grid Manager に直接サインインしてください。
+
+[cols="1a,2a"]
+|===
+| グリッドマネージャーメニュー | コンソールから利用できない操作 
+
+
+ a| 
+ユーザ
+ a| 
+* サインアウトリンク
+* APIドキュメントリンク
+* パスワードの変更
+
+
+
+
+ a| 
+ノード
+ a| 
+* 「ノード」> 「SANtricity System Manager」タブからSANtricity System Manager にアクセスできません。
+* アラートを表示するときに、推奨アクションのすべてのリンクを選択できない場合があります。たとえば、サポートされていないグリッド マネージャー ページに移動するリンクは機能しません。
+
+
+
+
+ a| 
+テナント
+ a| 
+テナントの作成ウィザードまたはテナント ページからテナント アカウントにサインインすることはできません。
+
+コンソールは現在、テナント マネージャーをサポートしていません。コンソールから新しいテナント アカウントを作成することはできますが、テナント ユーザーはコンソールから自分のアカウントにサインインすることはできません。
+
+
+
+ a| 
+ILM
+ a| 
+保管グレードリンク
+
+
+
+ a| 
+構成
+ a| 
+* グリッドパスワード
+* トラフィック分類 > メトリクス
+* セキュリティ設定 > ブラウザの非アクティブタイムアウト
+* シングルサインオン
+* SNMPエージェント > BMCインターフェースのMIBファイル
+
+
+
+
+ a| 
+メンテナンス
+ a| 
+* リカバリパッケージ
+* ソフトウェアアップデート
+
+
+
+
+ a| 
+サポート
+ a| 
+* グリッドトポロジー
+* Logs
+* メトリック。UI の他の場所からの Prometheus メトリックおよび Grafana ダッシュボードへのすべてのリンクが含まれます。
+* レガシーアラームのすべてのオプション
+* リンクコスト
+* NMSエンティティ
+
+
+|===
+
+
+== 詳細表示に切り替える
+
+StorageGRIDシステムを開き、詳細表示オプションを選択します。
+
+.手順
+. *システム* ページから、 StorageGRIDシステムを開きます。
+. 右上にある*詳細表示に切り替える*を選択します。
+. Grid Manager を使用してStorageGRIDシステムを管理します。
+. 必要に応じて、「標準ビューに切り替える」を選択して、コンソールから標準ビューに戻ります。
+
+
+
+
+== グリッドマネージャーのヘルプ
+
+グリッドマネージャの使用に関するヘルプが必要な場合は、 https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["StorageGRIDドキュメント"^]ステップバイステップの手順についてはこちらをご覧ください。

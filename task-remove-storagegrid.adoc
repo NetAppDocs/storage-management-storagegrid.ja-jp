@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task-remove-storagegrid.html 
+keywords: storagegrid, cluster, remove, delete, remove storagegrid, delete cluster, delete working environment, remove working environment, remove system, delete system 
+summary: NetAppコンソールから StorageGRID システムを管理する必要がなくなった場合は、 StorageGRIDシステムを削除します。 
+---
+= StorageGRIDシステムを削除する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetAppコンソールから StorageGRID システムを管理する必要がなくなった場合は、 StorageGRIDシステムを削除します。
+
+.必要なNetAppコンソール ロール:
+ストレージ管理者。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetAppコンソールのアクセス ロールについて学習します。"^]
+
+コンソールからシステムを削除しても、 StorageGRIDシステムには影響しません。いつでもコンソールに再度追加できます。
+
+.手順
+. ナビゲーション メニューから、*ストレージ > 管理* を選択します。
+. *システム* ページから、 StorageGRIDシステムを開きます。
+. 標準ビューから、メニューアイコンを選択し、*ワークスペースから削除*を選択します。
+. *削除*を選択して確認します。
+

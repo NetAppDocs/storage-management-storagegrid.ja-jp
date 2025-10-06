@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: task-enable-data-services.html 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid, tiering 
+summary: NetAppコンソールでStorageGRIDシステムを検出すると、バックアップ、データ階層化、データ同期に NetApp のデータ サービスを使用できます。 
+---
+= StorageGRIDでNetAppデータサービスを使用する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetAppコンソールでStorageGRIDシステムを検出したら、バックアップ、データ階層化、データ同期にNetAppデータ サービスを使用できます。
+
+* NetApp Backup and Recovery を使用して、オンプレミスのONTAPシステムからNetApp StorageGRIDシステムのオブジェクト ストレージにデータをバックアップします。
++
+開始するには、*システム* ページに移動し、オンプレミスのONTAPシステムをStorageGRIDシステムにドラッグ アンド ドロップします。
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["オンプレミスのONTAPデータをStorageGRIDにバックアップする方法の詳細"^]
+
+* NetApp Cloud Tiering を使用して、オンプレミスのONTAPクラスターからStorageGRIDに非アクティブなデータを自動的に階層化します。
++
+開始するには、*システム* ページに移動し、オンプレミスのONTAPシステムをStorageGRIDシステムにドラッグ アンド ドロップします。
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["オンプレミスのONTAPクラスターからStorageGRIDへのデータ階層化の詳細"^]
+
+* NetApp Copy and Sync を使用して、 StorageGRIDシステムとの間でデータを同期します。
++
+開始するには、*システム* ページに移動し、ソース システムをターゲット システムにドラッグ アンド ドロップします。  StorageGRID はソースまたはターゲットのいずれかになります。
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["NetAppコピーと同期の詳細"^]
+
+

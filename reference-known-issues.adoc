@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: reference-known-issues.html 
+keywords: issues, known issues, bugs, errors, storagegrid, storage grid, storagegrid known issues, netapp console known issues 
+summary: 今回のリリースの動作に悪影響を及ぼす可能性がある既知の問題が記載されています。 
+---
+= NetAppコンソールでStorageGRIDを管理する際の既知の問題
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+今回のリリースの動作に悪影響を及ぼす可能性がある既知の問題が記載されています。
+
+
+
+== 更新された表示名がNetAppコンソールに表示されない
+
+名前変更手順を使用してサイトまたはグリッドの新しい表示名を定義した場合、新しい表示名はNetAppコンソールに反映されません。  NetAppコンソール内では、新しい表示名ではなくシステム名が引き続き表示されます。
+
+
+
+== アラートのフィルタリング中にエラーが発生しました
+
+詳細ビューを使用している場合、アラート ページの内容をフィルターするとエラーが発生します。
+
+
+
+== グリッドフェデレーション接続の編集中にエラーが発生しました
+
+詳細ビューを使用している場合、グリッド フェデレーション接続を編集するときにゲートウェイ タイムアウト エラーが発生する可能性があります。
