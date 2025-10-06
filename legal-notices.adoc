@@ -47,6 +47,6 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 通知ファイルには、 NetAppソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が提供されます。
 
-* https://docs.netapp.com/us-en/console-setup-admin/media/notice.pdf["NetAppコンソールに関するお知らせ"^]
-* link:media/NOTICE-storageservices.pdf["StorageGRIDシステムのNetAppコンソール管理に関するお知らせ"^]
+* https://docs.netapp.com/us-en/console-setup-admin/media/notice.pdf["NetApp Consoleに関するお知らせ"^]
+* link:media/NOTICE-storageservices.pdf["StorageGRIDシステムのNetApp Console管理に関するお知らせ"^]
 

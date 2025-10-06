@@ -16,8 +16,8 @@ summary: StorageGRIDシステムを検出したら、容量の配分と関連す
 [role="lead"]
 StorageGRIDシステムを検出したら、容量の配分と関連するアラート、ノード、テナントに関する詳細を表示できます。
 
-.必要なNetAppコンソール ロール:
-ストレージ管理者またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetAppコンソールのアクセス ロールについて学習します。"^]
+.必要なNetApp Consoleロール:
+ストレージ管理者またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp Consoleのアクセス ロールについて学習します。"^]
 
 .手順
 . ナビゲーション メニューから、*ストレージ > 管理* を選択します。

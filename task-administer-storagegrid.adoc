@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-administer-storagegrid.html 
 keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
-summary: 詳細ビューを使用して、 NetAppコンソールからStorageGRIDシステムを管理します。このビューを使用すると、 NetAppコンソール内から Grid Manager を使用できます。 
+summary: 詳細ビューを使用して、 NetApp ConsoleからStorageGRIDシステムを管理します。このビューを使用すると、 NetApp Console内から Grid Manager を使用できます。 
 ---
-= NetAppコンソールのGrid Managerを使用してStorageGRIDを管理する
+= NetApp ConsoleのGrid Managerを使用してStorageGRIDを管理する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,9 +14,9 @@ summary: 詳細ビューを使用して、 NetAppコンソールからStorageGRI
 
 
 [role="lead"]
-詳細ビューを使用して、コンソールからStorageGRIDシステムを管理します。このビューを使用すると、コンソールからグリッド マネージャーを使用できます。
+詳細ビューを使用して、コンソールからStorageGRIDシステムを管理します。このビューを使用すると、コンソールから Grid Manager を使用できます。
 
-.必要なNetAppコンソール ロール:
+.必要なNetApp Consoleロール:
 ストレージ管理者、またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["アクセス ロールについて学習します。"^]
 
 

@@ -4,7 +4,7 @@ permalink: reference-known-issues.html
 keywords: issues, known issues, bugs, errors, storagegrid, storage grid, storagegrid known issues, netapp console known issues 
 summary: 今回のリリースの動作に悪影響を及ぼす可能性がある既知の問題が記載されています。 
 ---
-= NetAppコンソールでStorageGRIDを管理する際の既知の問題
+= NetApp ConsoleでStorageGRIDを管理する際の既知の問題
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -18,9 +18,9 @@ summary: 今回のリリースの動作に悪影響を及ぼす可能性があ�
 
 
 
-== 更新された表示名がNetAppコンソールに表示されない
+== 更新された表示名がNetApp Consoleに表示されない
 
-名前変更手順を使用してサイトまたはグリッドの新しい表示名を定義した場合、新しい表示名はNetAppコンソールに反映されません。  NetAppコンソール内では、新しい表示名ではなくシステム名が引き続き表示されます。
+名前変更手順を使用してサイトまたはグリッドの新しい表示名を定義した場合、新しい表示名はNetApp Consoleに反映されません。  NetApp Console内では、新しい表示名ではなくシステム名が引き続き表示されます。
 
 
 
