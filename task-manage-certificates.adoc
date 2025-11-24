@@ -17,7 +17,7 @@ summary: 証明書は期限切れになることがあるため、時々証明�
 NetApp Consoleからシステムを検出する前に、 StorageGRIDシステムに管理インターフェイス証明書が必要です。証明書は、コンソールとStorageGRID間の安全な接続を提供します。証明書は期限切れになることがあるため、時々証明書のステータスを確認したり、証明書を更新したりする必要がある場合があります。
 
 .必要なNetApp Consoleロール:
-ストレージ管理者。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp Consoleのアクセス ロールについて学習します。"^]
+ストレージ管理者。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetApp Consoleのアクセスロールについて学ぶ"^]。
 
 
 
@@ -42,12 +42,12 @@ NOTE: 証明書のステータスは 24 時間ごとに更新されます。
 管理インターフェイス証明書のステータスが有効でない場合、または証明書の有効期限が切れたという通知を受け取った場合は、 NetApp ConsoleがStorageGRIDに接続できるように証明書を更新する必要があります。
 
 .手順
-. StorageGRIDのオンプレミスのグリッドマネージャーにアクセスし、以下の手順に従ってください。 https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRIDに管理インターフェース証明書をインストールする"] 。
+. StorageGRIDのオンプレミスのグリッドマネージャーにアクセスし、以下の手順に従ってください。 https://docs.netapp.com/us-en/storagegrid/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRIDに管理インターフェース証明書をインストールする"] 。
 . NetApp Consoleのナビゲーション メニューから、*ストレージ > 管理* を選択します。
 . *システム* ページで、 StorageGRIDシステムを選択します。
-. その他のオプションアイコン (縦に 3 つの点がある円) を選択します。
+. その他のオプションアイコン (水平に 3 つのドットがある円) を選択します。
 +
-image:screenshot-update-certificate.png["アップデートメニューのスクリーンショット。"]
+image::screenshot-update-certificate.png[アップデートメニューのスクリーンショット。]
 
 . *証明書の更新*を選択します。
 . 更新された証明書を使用するには、[証明書の承認] ページで [証明書の承認] を選択します。

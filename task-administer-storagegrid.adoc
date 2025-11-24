@@ -17,7 +17,7 @@ summary: 詳細ビューを使用して、 NetApp ConsoleからStorageGRIDシス
 詳細ビューを使用して、コンソールからStorageGRIDシステムを管理します。このビューを使用すると、コンソールから Grid Manager を使用できます。
 
 .必要なNetApp Consoleロール:
-ストレージ管理者、またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["アクセス ロールについて学習します。"^]
+ストレージ管理者、またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["アクセスロールについて学ぶ"^]。
 
 
 
@@ -75,7 +75,6 @@ ILM
 構成
  a| 
 * グリッドパスワード
-* トラフィック分類 > メトリクス
 * セキュリティ設定 > ブラウザの非アクティブタイムアウト
 * シングルサインオン
 * SNMPエージェント > BMCインターフェースのMIBファイル
@@ -96,8 +95,8 @@ ILM
 サポート
  a| 
 * グリッドトポロジー
-* Logs
-* メトリック。UI の他の場所からの Prometheus メトリックおよび Grafana ダッシュボードへのすべてのリンクが含まれます。
+* ログ収集
+* Prometheus メトリックと Grafana ダッシュボードへのすべてのリンク
 * レガシーアラームのすべてのオプション
 * リンクコスト
 * NMSエンティティ
@@ -106,15 +105,15 @@ ILM
 |===
 
 
-== 詳細表示に切り替える
+== グリッドマネージャーに切り替える
 
-StorageGRIDシステムを開き、詳細表示オプションを選択します。
+StorageGRIDシステムを開き、Grid Manager オプションを選択します。
 
 .手順
 . *システム* ページから、 StorageGRIDシステムを開きます。
-. 右上にある*詳細表示に切り替える*を選択します。
+. 右上で、[グリッド マネージャーに切り替える] を選択します。
 . Grid Manager を使用してStorageGRIDシステムを管理します。
-. 必要に応じて、「標準ビューに切り替える」を選択して、コンソールから標準ビューに戻ります。
+. 必要に応じて、[*戻る*] を選択して、コンソールから標準ビューに戻ります。
 
 
 

@@ -1,9 +1,9 @@
-= 必要なBlueXPアクセスロール
+= 必要なNetApp Consoleアクセスロール
 :allow-uri-read: 
 
 
 
 
-=== 必要なBlueXPアクセスロール
+=== 必要なNetApp Consoleアクセスロール
 
-BlueXPでStorageGRID を表示、検出、または管理するには、次のアクセス ロールのいずれかが必要です: *組織管理者*、*フォルダーまたはプロジェクト管理者*、*ストレージ管理者*、または *ストレージ ヘルス スペシャリスト*。link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["BlueXPアクセス ロールについて学習します。"^]
+NetApp ConsoleでStorageGRID を表示、検出、または管理するには、次のアクセス ロールのいずれかが必要です: *組織管理者*、*フォルダまたはプロジェクト管理者*、*ストレージ管理者*、または *ストレージ ヘルス スペシャリスト*。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html#data-service-roles["NetApp Consoleのアクセス ロールについて学習します。"^]

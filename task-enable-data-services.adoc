@@ -21,20 +21,20 @@ NetApp ConsoleでStorageGRIDシステムを検出したら、バックアップ�
 開始するには、*システム* ページに移動し、オンプレミスのONTAPシステムをStorageGRIDシステムにドラッグ アンド ドロップします。
 
 +
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["オンプレミスのONTAPデータをStorageGRIDにバックアップする方法の詳細"^]
+https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-backup-onprem-storagegrid.html["オンプレミスのONTAPデータをStorageGRIDにバックアップする方法の詳細"^]
 
 * NetApp Cloud Tieringを使用して、オンプレミスのONTAPクラスターからStorageGRIDに非アクティブなデータを自動的に階層化します。
 +
 開始するには、*システム* ページに移動し、オンプレミスのONTAPシステムをStorageGRIDシステムにドラッグ アンド ドロップします。
 
 +
-https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["オンプレミスのONTAPクラスターからStorageGRIDへのデータ階層化の詳細"^]
+https://docs.netapp.com/us-en/data-services-cloud-tiering/task-tiering-onprem-storagegrid.html["オンプレミスのONTAPクラスターからStorageGRIDへのデータ階層化の詳細"^]
 
 * NetApp Copy and Syncを使用して、 StorageGRIDシステムとの間でデータを同期します。
 +
 開始するには、*システム* ページに移動し、ソース システムをターゲット システムにドラッグ アンド ドロップします。  StorageGRID はソースまたはターゲットのいずれかになります。
 
 +
-https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["NetApp Copy and Syncの詳細"^]
+https://docs.netapp.com/us-en/data-services-copy-sync/index.html["NetApp Copy and Syncの詳細"^]
 
 

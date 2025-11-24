@@ -17,7 +17,7 @@ summary: NetApp ConsoleからStorageGRIDシステムを管理する必要がな�
 NetApp ConsoleからStorageGRIDシステムを管理する必要がなくなった場合は、そのシステムを削除します。
 
 .必要なNetApp Consoleロール:
-ストレージ管理者。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp Consoleのアクセス ロールについて学習します。"^]
+ストレージ管理者。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetApp Consoleのアクセスロールについて学ぶ"^]。
 
 コンソールからシステムを削除しても、 StorageGRIDシステムには影響しません。いつでもコンソールに再度追加できます。
 

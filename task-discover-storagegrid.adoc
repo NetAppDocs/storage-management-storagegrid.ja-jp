@@ -17,12 +17,12 @@ summary: オンプレミス環境内のStorageGRIDシステムを検出し、Gri
 Grid Manager を使用して、 NetApp Consoleから StorageGrid システムを直接管理します。
 
 .必要なNetApp Consoleロール:
-ストレージ管理者またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp Consoleのアクセス ロールについて学習します。"^]
+ストレージ管理者またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetApp Consoleのアクセスロールについて学ぶ"^]。
 
 .開始する前に
 次のものが必要です:
 
-* バージョン 3.9.43 以降を使用するNetApp Consoleエージェント。コンソール エージェントをインストールするには、組織管理者のロールが必要です。組織にコンソール エージェントがあるかどうかわからない場合、またはコンソール エージェントを作成する必要がある場合は、 NetApp Console管理者に問い合わせてください。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["組織の管理者に問い合わせてください。"^]
+* バージョン 3.9.43 以降を使用するNetApp Consoleエージェント。コンソール エージェントをインストールするには、組織管理者のロールが必要です。組織にコンソール エージェントがあるかどうかわからない場合、またはコンソール エージェントを作成する必要がある場合は、 NetApp Console管理者に問い合わせてください。 https://docs.netapp.com/us-en/console-setup-admin/task-user-settings.html#contact-your-organization-administrator["組織の管理者に問い合わせる"^] 。
 * 管理ノードのドメイン名または IP アドレス。
 * 管理ノードの管理者資格情報。
 * StorageGRIDシステムにインストールされた管理インターフェイス証明書。
