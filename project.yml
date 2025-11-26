@@ -30,7 +30,7 @@ sidebar:
     - title: StorageGRID証明書の表示と更新
       url: "/task-manage-certificates.html"
     - title: 詳細ビューを使用してStorageGRIDを管理する
-      url: task-administer-storagegrid.html
+      url: "/task-administer-storagegrid.html"
     - title: StorageGRIDでNetAppデータサービスを使用する
       url: "/task-enable-data-services.html"
     - title: システムを削除する

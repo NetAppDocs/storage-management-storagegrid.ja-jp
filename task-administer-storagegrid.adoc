@@ -31,7 +31,7 @@ Grid Manager は、 StorageGRID 11.8 以降のコンソールで使用できま�
 
 次のグリッド マネージャ操作はコンソールからは使用できません。これらの操作を実行する必要がある場合は、Grid Manager に直接サインインしてください。
 
-[cols="1a,2a"]
+[cols="1a,3a"]
 |===
 | グリッドマネージャーメニュー | コンソールから利用できない操作 
 
@@ -120,4 +120,4 @@ StorageGRIDシステムを開き、Grid Manager オプションを選択しま�
 
 == グリッドマネージャーのヘルプ
 
-グリッドマネージャの使用に関するヘルプが必要な場合は、 https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["StorageGRIDドキュメント"^]ステップバイステップの手順についてはこちらをご覧ください。
+グリッドマネージャの使用に関するヘルプが必要な場合は、 https://docs.netapp.com/us-en/storagegrid/admin/index.html["StorageGRIDドキュメント"^] ステップバイステップの手順についてはこちらをご覧ください。

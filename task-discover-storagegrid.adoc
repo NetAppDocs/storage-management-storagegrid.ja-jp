@@ -27,7 +27,7 @@ Grid Manager を使用して、 NetApp Consoleから StorageGrid システムを
 * 管理ノードの管理者資格情報。
 * StorageGRIDシステムにインストールされた管理インターフェイス証明書。
 +
-https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRIDに管理インターフェース証明書をインストールする方法の詳細"^]
+https://docs.netapp.com/us-en/storagegrid/admin/using-storagegrid-security-certificates.html["StorageGRIDに管理インターフェース証明書をインストールする方法の詳細"^]
 
 
 
@@ -40,7 +40,7 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 . コンソールは、 StorageGRID管理インターフェイス証明書を自動的に取得します。  [証明書の承認] ページで、証明書の詳細を確認します。
 . 別の証明書を使用するには、まずStorageGRIDシステムで証明書を設定します。
 +
-.. オンプレミスのStorageGRIDシステムで、次の手順に従います。 https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRIDに管理インターフェース証明書をインストールする"^] 。
+.. オンプレミスのStorageGRIDシステムで、次の手順に従います。 https://docs.netapp.com/us-en/storagegrid/admin/using-storagegrid-security-certificates.html["StorageGRIDに管理インターフェース証明書をインストールする"^]。
 .. StorageGRIDシステムで証明書を設定した後、コンソールの [証明書の承認] ページで [キャンセル] を選択します。
 .. _StorageGRID Cluster Details_ ページで、[*追加*] を選択します。
 
