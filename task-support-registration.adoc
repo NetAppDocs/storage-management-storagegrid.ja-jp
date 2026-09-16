@@ -22,6 +22,7 @@ NetApp Consoleとそのストレージ ソリューションおよびデータ �
 
 
 
+[[support-registration-overview]]
 == サポート登録の概要
 
 サポート資格を有効にするには、次の 2 つの登録形式があります。
@@ -40,12 +41,14 @@ NetApp Consoleとそのストレージ ソリューションおよびデータ �
 
 
 
+[[register-netapp-console-for-netapp-support]]
 == NetAppサポートのためにNetApp Consoleを登録する
 
 サポートに登録し、サポート資格を有効にするには、 NetApp Consoleアカウントの 1 人のユーザーがNetAppサポート サイト アカウントをコンソール ログインに関連付ける必要があります。NetAppサポートに登録する方法は、 NetAppサポート サイト (NSS) アカウントをすでにお持ちかどうかによって異なります。
 
 
 
+[[existing-customer-with-an-nss-account]]
 === NSSアカウントをお持ちの既存顧客
 
 NSS アカウントをお持ちのNetApp のお客様の場合は、コンソールからサポートに登録するだけです。
@@ -65,6 +68,7 @@ NSS アカウントをお持ちのNetApp のお客様の場合は、コンソー
 
 
 
+[[existing-customer-but-no-nss-account]]
 === 既存の顧客だがNSSアカウントがない
 
 既存のNetApp顧客であり、既存のライセンスとシリアル番号を持っているものの、NSS アカウントを持っていない場合は、NSS アカウントを作成し、それをコンソール ログインに関連付ける必要があります。
@@ -81,6 +85,7 @@ NSS アカウントをお持ちのNetApp のお客様の場合は、コンソー
 
 
 
+[[brand-new-to-netapp]]
 === NetAppの新着情報
 
 NetAppを初めて使用し、NSS アカウントをお持ちでない場合は、以下の手順に従ってください。
@@ -89,7 +94,7 @@ NetAppを初めて使用し、NSS アカウントをお持ちでない場合は�
 . コンソールの右上にあるヘルプ アイコンを選択し、*サポート* を選択します。
 . サポート登録ページからアカウント ID シリアル番号を見つけます。
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["「サポート」が最初のオプションとしてリストされている「ヘルプ」メニューのスクリーンショット"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-serial-number.png["「サポート」が最初のオプションとしてリストされている「ヘルプ」メニューのスクリーンショット"]
 
 . 移動先 https://register.netapp.com["NetAppのサポート登録サイト"^]*私は登録済みのNetApp顧客ではありません* を選択します。
 . 必須フィールド（赤いアスタリスクが付いているフィールド）に入力します。
@@ -117,6 +122,7 @@ NetAppサポートサイトのアカウントを取得したら、以下の手�
 
 
 
+[[associate-nss-credentials-for-cloud-volumes-ontap-support]]
 == Cloud Volumes ONTAPサポートに NSS 認証情報を関連付ける
 
 Cloud Volumes ONTAPの次の主要なワークフローを有効にするには、 NetAppサポート サイトの認証情報をコンソール アカウントに関連付ける必要があります。
@@ -143,7 +149,7 @@ NSS 資格情報をNetApp Consoleアカウントに関連付けることは、�
 .手順
 . コンソールの右上にあるヘルプ アイコンを選択し、*サポート* を選択します。
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["「サポート」が最初のオプションとしてリストされている「ヘルプ」メニューのスクリーンショット"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-help-support.png["「サポート」が最初のオプションとしてリストされている「ヘルプ」メニューのスクリーンショット"]
 
 . *NSS管理 > NSSアカウントの追加*を選択します。
 . プロンプトが表示されたら、[続行] を選択して、Microsoft ログイン ページにリダイレクトします。
@@ -168,9 +174,9 @@ NetApp は、サポートとライセンスに固有の認証サービスの ID 
 
 ** ログインが成功すると、 NetApp はNSS ユーザー名を保存します。
 +
-これは、メールにマッピングされるシステム生成の ID です。*NSS管理*ページでは、image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["3つの水平の点のアイコン"]メニュー。
+これはシステムによって生成されたIDで、お客様のメールアドレスにマッピングされます。*NSS管理*ページのimage:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["3つの水平の点のアイコン"]メニューからメールアドレスを表示できます。
 
-** ログイン認証トークンを更新する必要がある場合は、image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["3つの水平の点のアイコン"]メニュー。
+** ログイン資格情報トークンを更新する必要がある場合は、image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["3つの水平の点のアイコン"] メニューに*資格情報の更新*オプションもあります。
 +
 このオプションを使用すると、再度ログインするよう求められます。これらのアカウントのトークンは 90 日後に期限切れになることに注意してください。これを知らせる通知が投稿されます。
 

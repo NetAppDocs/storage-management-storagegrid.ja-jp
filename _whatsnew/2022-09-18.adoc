@@ -4,6 +4,7 @@
 
 
 
+[[support-for-storagegrid]]
 === StorageGRIDのサポート
 
 BlueXPから直接StorageGRIDシステムを検出できるようになりました。  StorageGRID を検出すると、ハイブリッド マルチクラウド全体のデータの完全なビューが提供されます。

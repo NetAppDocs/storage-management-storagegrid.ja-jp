@@ -17,16 +17,18 @@ summary: 詳細ビューを使用して、 NetApp ConsoleからStorageGRIDシス
 詳細ビューを使用して、コンソールからStorageGRIDシステムを管理します。このビューを使用すると、コンソールから Grid Manager を使用できます。
 
 .必要なNetApp Consoleロール:
-ストレージ管理者、またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["アクセスロールについて学ぶ"^]。
+スーパー管理者、ストレージ管理者、またはシステムヘルススペシャリスト。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["アクセスロールについて説明します。"^]
 
 
 
+[[supported-configurations]]
 == サポートされている構成
 
 Grid Manager は、 StorageGRID 11.8 以降のコンソールで使用できます。
 
 
 
+[[limitations]]
 == 制限事項
 
 次のグリッド マネージャ操作はコンソールからは使用できません。これらの操作を実行する必要がある場合は、Grid Manager に直接サインインしてください。
@@ -105,6 +107,7 @@ ILM
 |===
 
 
+[[switch-to-grid-manager]]
 == グリッドマネージャーに切り替える
 
 StorageGRIDシステムを開き、Grid Manager オプションを選択します。
@@ -118,6 +121,7 @@ StorageGRIDシステムを開き、Grid Manager オプションを選択しま�
 
 
 
+[[get-help-with-grid-manager]]
 == グリッドマネージャーのヘルプ
 
 グリッドマネージャの使用に関するヘルプが必要な場合は、 https://docs.netapp.com/us-en/storagegrid/admin/index.html["StorageGRIDドキュメント"^] ステップバイステップの手順についてはこちらをご覧ください。

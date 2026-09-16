@@ -17,10 +17,11 @@ summary: 証明書は期限切れになることがあるため、時々証明�
 NetApp Consoleからシステムを検出する前に、 StorageGRIDシステムに管理インターフェイス証明書が必要です。証明書は、コンソールとStorageGRID間の安全な接続を提供します。証明書は期限切れになることがあるため、時々証明書のステータスを確認したり、証明書を更新したりする必要がある場合があります。
 
 .必要なNetApp Consoleロール:
-ストレージ管理者。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetApp Consoleのアクセスロールについて学ぶ"^]。
+スーパー管理者またはストレージ管理者。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp Consoleのアクセス ロールについて学習します。"^]
 
 
 
+[[view-the-status-of-a-management-interface-certificate]]
 == 管理インターフェース証明書のステータスを表示する
 
 StorageGRIDシステムの管理インターフェイス証明書のステータスを表示して、証明書がまだ有効であることを確認します。
@@ -37,6 +38,7 @@ NOTE: 証明書のステータスは 24 時間ごとに更新されます。
 
 
 
+[[update-the-management-interface-certificate]]
 == 管理インターフェース証明書を更新する
 
 管理インターフェイス証明書のステータスが有効でない場合、または証明書の有効期限が切れたという通知を受け取った場合は、 NetApp ConsoleがStorageGRIDに接続できるように証明書を更新する必要があります。
