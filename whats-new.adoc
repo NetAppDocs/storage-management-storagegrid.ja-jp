@@ -18,6 +18,20 @@ NetApp ConsoleでStorageGRIDシステムを管理する新機能について説�
 
 
 
+[[01-september-2026]]
+== 2026年9月1日
+
+
+
+[[support-for-storagegrid-12-1]]
+=== StorageGRID 12.1のサポート
+
+StorageGRID 12.1システムをNetApp Consoleから管理できるようになりました。
+
+https://docs.netapp.com/us-en/storage-management-storagegrid/task-administer-storagegrid.html["NetApp Consoleの詳細ビューを使用してStorageGRIDを管理する方法について説明します"]。
+
+
+
 [[06-october-2025]]
 == 2025年10月6日
 
